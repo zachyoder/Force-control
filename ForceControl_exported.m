@@ -1344,7 +1344,7 @@ classdef ForceControl_exported < matlab.apps.AppBase
     methods (Access = public)
 
         % Construct app
-        function app = ForceControl
+        function app = ForceControl_exported
 
             % Create UIFigure and components
             createComponents(app)
